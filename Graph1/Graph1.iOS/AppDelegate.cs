@@ -26,6 +26,7 @@ namespace Graph1.iOS
 
             OxyPlot.Xamarin.Forms.Platform.iOS.PlotViewRenderer.Init();
 
+
             LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
